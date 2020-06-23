@@ -5,9 +5,9 @@ import { AppComponent } from './app.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { PortfolioPageComponent } from './portfolio-page/portfolio-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
+import { ProjectDisplayComponent } from './project-display/project-display.component';
 
 @NgModule({
   declarations: [
@@ -15,9 +15,9 @@ import { LandingComponent } from './landing/landing.component';
     TopNavComponent,
     AboutMeComponent,
     ContactFormComponent,
-    PortfolioPageComponent,
     FooterComponent,
-    LandingComponent
+    LandingComponent,
+    ProjectDisplayComponent
   ],
   imports: [
     BrowserModule
