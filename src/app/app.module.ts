@@ -8,6 +8,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
 import { ProjectDisplayComponent } from './project-display/project-display.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProjectDisplayComponent } from './project-display/project-display.compo
     ContactFormComponent,
     FooterComponent,
     LandingComponent,
-    ProjectDisplayComponent
+    ProjectDisplayComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule
