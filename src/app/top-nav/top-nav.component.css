@@ -1,7 +1,7 @@
 /* Mobile settings */
 
 .nav-bar {
-    background-color: rgb(24, 20, 58);
+    background-image: linear-gradient(rgba(24, 20, 58, 1), rgba(24, 20, 58, .8));
     position: fixed;
     top: 0;
     width: 100%;
