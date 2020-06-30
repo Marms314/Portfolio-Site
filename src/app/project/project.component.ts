@@ -16,5 +16,6 @@ export class ProjectComponent implements OnInit {
   description : String = "This is a project. I had a lot of fun with it and learned many things."
   keywords : String[] = ["JavaScript", "HTML", "CSS"];
   screenshot : String = "assets/project-screenshots/first-project.png";
+  githubLink : String = "aplace.com";
 
 }

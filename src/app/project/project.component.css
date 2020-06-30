@@ -1,0 +1,18 @@
+.container {
+    background-color: rgb(225, 225, 235);
+    border: double #222;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.keyword {
+    background-color: rgb(163, 163, 173);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
