@@ -1,5 +1,17 @@
 <div class="container">
-    <img src="{{screenshots[activeImg]}}" alt="A screenshot of the project!" (click) = "nextImg()">
+    <img src="{{screenshots[activeImg]}}" alt="A screenshot of the project!" (click)="nextImg()">
+
+    <div class="imgScrollBar">
+        <span class="arrow-left" (click) = "previousImg()"></span>
+
+        <span *ngFor="let screenshot of screenshots" class="dot"
+            [style.background-color]="activeImg === screenshots.indexOf(screenshot) ? 'rgb(24, 20, 58)' : 'rgb(163, 163, 173)'"
+            (click)="setImg(screenshots.indexOf(screenshot))"
+        ></span>
+
+        <span class="arrow-right" (click) = "nextImg()"></span>
+    </div>
+
     <h3>{{projectName}}</h3>
     <p>{{description}}</p>
     <p>Built with: <span *ngFor="let keyword of keywords" class="keyword">{{keyword}}</span></p>

@@ -1,3 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
 .container {
     background-color: rgb(225, 225, 235);
     border: double #222;
@@ -14,15 +22,33 @@
     padding: 2px;
 }
 
-a {
-    text-decoration: none;
+.dot {
+    margin: 5px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
-img {
-    max-width: 100%;
+
+.imgScrollBar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.inactive {
-    visibility: hidden;
-    display: none;
-}
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; 
+    border-right: 15px solid rgb(24, 20, 58); 
+  }
+
+  .arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgb(24, 20, 58);
+  }

@@ -27,4 +27,17 @@ export class ProjectComponent implements OnInit {
     }
   }
 
+  previousImg() : void {
+    if (this.activeImg === 0) {
+      this.activeImg = this.screenshots.length - 1;
+    } else {
+      this.activeImg--;
+    }
+  }
+
+  setImg(wantedImg : number) : void {
+      this.activeImg = wantedImg;
+  }
+    
+
 }
