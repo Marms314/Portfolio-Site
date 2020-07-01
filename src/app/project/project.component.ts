@@ -17,5 +17,9 @@ export class ProjectComponent implements OnInit {
   keywords : String[] = ["JavaScript", "HTML", "CSS"];
   screenshots : String[] = ["assets/project-screenshots/Screenshot-1.png", "assets/project-screenshots/Screenshot-2.png", "assets/project-screenshots/Screenshot-3.png", "assets/project-screenshots/Screenshot-4.png"];
   githubLink : String = "aplace.com";
+  isInactive : boolean = true;
+  
+  
+  
 
 }

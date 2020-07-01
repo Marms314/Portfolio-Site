@@ -1,5 +1,5 @@
 <div class="container">
-    <img *ngFor="let screenshot of screenshots" class="mySlides" id="{{screenshots.indexOf(screenshot)}}" src="{{screenshot}}" alt="A screenshot of the project!">
+    <img *ngFor="let screenshot of screenshots" [class.inactive]="isInactive" id="{{screenshots.indexOf(screenshot)}}" src="{{screenshot}}" alt="A screenshot of the project!">
     <h3>{{projectName}}</h3>
     <p>{{description}}</p>
     <p>Built with: <span *ngFor="let keyword of keywords" class="keyword">{{keyword}}</span></p>
