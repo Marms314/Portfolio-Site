@@ -9,11 +9,16 @@
     height: 500px;
 }
 
-.container h1 {
-    padding-top: 375px;
+.container h1, p {
+    color: rgb(163, 163, 173);
+    padding: 0 0 0 15px;
+    margin: 0;
 }
 
-.container h1, p {
-    color: rgb(153, 153, 163);
-    padding-left: 15px;
+.container h1 {
+    color: rgb(235, 215, 38);
+}
+
+.intro {
+    margin-top: 375px;
 }
