@@ -1,7 +1,7 @@
 <div class="container">
-    <img src="{{screenshot}}" alt="Oops! Missing photo!">
+    <img *ngFor="let screenshot of screenshots" class="mySlides" id="{{screenshots.indexOf(screenshot)}}" src="{{screenshot}}" alt="A screenshot of the project!">
     <h3>{{projectName}}</h3>
     <p>{{description}}</p>
     <p>Built with: <span *ngFor="let keyword of keywords" class="keyword">{{keyword}}</span></p>
-    <a href="{{githubLink}}">Github Link</a>
+    <a href="{{githubLink}}">Checkout the GitHub Repo here.</a>
 </div>

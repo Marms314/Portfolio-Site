@@ -4,6 +4,7 @@
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
+    
 }
 
 .keyword {
@@ -15,4 +16,10 @@
 
 a {
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    visibility: hidden;
+    display: none;
 }
