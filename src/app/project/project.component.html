@@ -1,5 +1,5 @@
-<div class="container">
-    <img src="{{screenshots[activeImg]}}" alt="A screenshot of the project!" (click)="nextImg()">
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{screenshots[activeImg]}}" alt="A screenshot of the project!" (click)="nextImg()">
 
     <div class="imgScrollBar">
         <span class="arrow-left" (click) = "previousImg()"></span>
@@ -12,8 +12,10 @@
         <span class="arrow-right" (click) = "nextImg()"></span>
     </div>
 
-    <h3>{{projectName}}</h3>
-    <p>{{description}}</p>
-    <p>Built with: <span *ngFor="let keyword of keywords" class="keyword">{{keyword}}</span></p>
-    <a href="{{githubLink}}">Checkout the GitHub Repo here.</a>
+    <div class="card-body">
+        <h3 class="card-title">{{projectName}}</h3>
+        <p class="card-text">{{description}}</p>
+        <p class="card-text">Built with: <span *ngFor="let keyword of keywords" class="keyword">{{keyword}}</span></p>
+        <a href="{{githubLink}}">Checkout the GitHub Repo here.</a>
+    </div> 
 </div>
