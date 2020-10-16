@@ -11,11 +11,11 @@
 p {
     color: rgb(163, 163, 173);
     font-weight: 500;
+    text-shadow: 1px 1px rgba(83, 83, 88, .5);
 }
 
 .container h1 {
     color: rgb(235, 215, 38);
     font-weight: 500;
+    text-shadow: 2px 2px rgba(91, 82, 0, .5);
 }
-
-/* that nice gold: rgb(235, 215, 38); */
