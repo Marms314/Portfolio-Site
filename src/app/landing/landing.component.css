@@ -1,5 +1,4 @@
-.container {
-    padding-top: 40px;
+.jumbotron {
     background-image: 
         radial-gradient(rgba(24, 20, 58, 0), rgba(24, 20, 58, .3), rgba(24, 20, 58, 1)),
         url("/assets/lensball-on-gray-stone-1721537.jpg");
@@ -9,16 +8,14 @@
     height: 500px;
 }
 
-.container h1, p {
+p {
     color: rgb(163, 163, 173);
-    padding: 0 0 0 15px;
-    margin: 0;
+    font-weight: 500;
 }
 
 .container h1 {
     color: rgb(235, 215, 38);
+    font-weight: 500;
 }
 
-.intro {
-    margin-top: 375px;
-}
+/* that nice gold: rgb(235, 215, 38); */
