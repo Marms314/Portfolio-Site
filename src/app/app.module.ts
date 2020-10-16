@@ -1,8 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { TooltipModule } from 'ngx-bootstrap/tooltip';
-import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { AppComponent } from './app.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
@@ -25,10 +22,7 @@ import { ProjectComponent } from './project/project.component';
     ProjectComponent
   ],
   imports: [
-    BrowserModule,
-    BsDropdownModule.forRoot(),
-    TooltipModule.forRoot(),
-    ModalModule.forRoot()
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,22 +1,10 @@
 /* Mobile settings */
 
-.nav-bar {
+nav {
     background-image: linear-gradient(rgba(24, 20, 58, 1), rgba(24, 20, 58, .8));
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    justify-content: center;
+
 }
 
-.nav-bar a {
-    text-decoration: none;
-    display: inline-block;
+a {
     color: rgb(153, 153, 163);
-    text-align: center;
-    justify-content: center;
-    padding: 14px 16px;
 }
