@@ -1,17 +1,5 @@
 h2 {
     text-align: right;
-    padding-right: 15px;
-    color: rgb(163, 163, 173);   /* rgb(163, 163, 173) */
-}
-
-.projects {
-    width: 90%;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
+    padding: 0 15px 15px 0;
+    color: rgb(163, 163, 173);
 }

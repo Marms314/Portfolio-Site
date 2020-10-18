@@ -19,25 +19,25 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  nextImg() : void {
-    if ((this.activeImg + 1) === this.screenshots.length) {
-      this.activeImg = 0;
-    } else {
-      this.activeImg++;
-    }
-  }
+  // nextImg() : void {
+  //   if ((this.activeImg + 1) === this.screenshots.length) {
+  //     this.activeImg = 0;
+  //   } else {
+  //     this.activeImg++;
+  //   }
+  // }
 
-  previousImg() : void {
-    if (this.activeImg === 0) {
-      this.activeImg = this.screenshots.length - 1;
-    } else {
-      this.activeImg--;
-    }
-  }
+  // previousImg() : void {
+  //   if (this.activeImg === 0) {
+  //     this.activeImg = this.screenshots.length - 1;
+  //   } else {
+  //     this.activeImg--;
+  //   }
+  // }
 
-  setImg(wantedImg : number) : void {
-      this.activeImg = wantedImg;
-  }
+  // setImg(wantedImg : number) : void {
+  //     this.activeImg = wantedImg;
+  // }
     
 
 }
