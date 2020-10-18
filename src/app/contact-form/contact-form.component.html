@@ -1,13 +1,28 @@
 <a name="contact"></a>
 
-<p>Thank you for your interest!<br>
-    I can be reached through the contact form below, by email at MaryArmstrong314@Gmail.com.<br>
-    I look forward to working with you.
-</p>
+<div class="container">
+    <p class="text-center">Want to get in touch?<br>
+        I can be reached through the contact form below, or by email at MaryArmstrong314@Gmail.com.<br>
+        I look forward to working with you!
+    </p>
 
-<form>
-    <label>Name<input type="text" name="firstName" placeholder="Your Name"></label>
-    <label>Email<input type="email" name="email" placeholder="Your Email"></label>
-    <label>Message<textarea name="message" placeholder="Let me know what's going on!"></textarea></label>
-    <input type="submit" value="Send My Message!">
-</form>
+
+    <form class="mx-auto">
+        <div class="form-row">
+            <div class="col">
+                <label for="contactName">Name</label>
+                <input type="text" class="form-control" name="contactName" placeholder="Your Name" required>
+            </div>
+            <div class="col">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" name="message" placeholder="Let me know what's going on!" required></textarea>
+        </div>
+        <input type="submit" class="btn btn-block btn-secondary mb-2" value="Send">
+    </form>
+
+</div>
